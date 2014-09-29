@@ -1,5 +1,5 @@
 bell_msg '^GBell in window %n'
-
+defscrollback 1000
 # Fix for residual text
 altscreen on
 
@@ -9,6 +9,8 @@ screen
 screen
 screen
 select 0
+
+vbell off
 
 startup_message off
 hardstatus alwayslastline
