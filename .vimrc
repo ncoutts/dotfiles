@@ -1,9 +1,12 @@
-set nocompatible " Disable vi-compatibility
+execute pathogen#infect()
+set nocompatible
 syntax on
 filetype off
 
 set laststatus=2 " Always show the statusline
 set t_Co=256 " Explicitly tell vim that the terminal has 256 colors
+let g:airline_powerline_fonts = 1
+let g:Powerline_symbols = 'fancy'
 
 set swapfile
 set backup
@@ -19,11 +22,15 @@ let g:rehash256=1
 colorscheme molokai
 match ErrorMsg '\s\+$' " Shows trailing whitespace
 set cursorline
-setlocal tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+set shiftwidth=4
+set tabstop=4
 set mouse=a
 set ttymouse=xterm2
 set scrolloff=4
 set lazyredraw
 set ttyfast
+set incsearch
+set showmatch
+set hlsearch
 
 filetype plugin indent on
