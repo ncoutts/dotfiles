@@ -10,9 +10,9 @@ let g:Powerline_symbols = 'fancy'
 
 set swapfile
 set backup
-set backupdir=~/tmp/backup//
-set directory=~/tmp/swap//
-set undodir=~/tmp/undo//
+set backupdir=~/.vim/tmp/backup//
+set directory=~/.vim/tmp/swap//
+set undodir=~/.vim/tmp/undo//
 
 set background=dark
 set number
