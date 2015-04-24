@@ -9,5 +9,6 @@ mkdir ~/.vim/tmp/swap
 mkdir ~/.vim/tmp/undo
 git clone https://github.com/bling/vim-airline.git ~/.vim/bundle/vim-airline
 git clone git://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
+git clone https://github.com/wookiehangover/jshint.vim.git ~/.vim/bundle/jshint.vim
 cd ~/.vim/colors && wget https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim && cd --
 cd ~/.vim/autoload && wget https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim && cd --
