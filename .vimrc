@@ -1,6 +1,7 @@
 set nocompatible
 syntax on
 filetype off
+set clipboard=unnamed
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
