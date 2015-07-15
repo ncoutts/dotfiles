@@ -36,13 +36,16 @@ set cursorline
 set shiftwidth=4
 set tabstop=4
 set ttymouse=xterm2
-set mouse=a
 set scrolloff=4
 set incsearch
 set showmatch
 set hlsearch
 set backspace=2
 filetype plugin indent on
+
+if has("mouse")
+	set mouse=a
+endif
 
 augroup VimCSS3Syntax
 	autocmd!
