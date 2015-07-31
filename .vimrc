@@ -26,6 +26,7 @@ set directory=~/.vim/tmp/swap//
 set undodir=~/.vim/tmp/undo//
 
 set background=dark
+set t_ut=
 set number
 set fileformats=unix
 let g:molokai_original=1
