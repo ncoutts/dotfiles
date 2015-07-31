@@ -36,6 +36,7 @@ set cursorline
 set shiftwidth=4
 set tabstop=4
 set ttymouse=xterm2
+set ttyfast
 set scrolloff=4
 set incsearch
 set showmatch
