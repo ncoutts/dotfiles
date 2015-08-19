@@ -12,6 +12,7 @@ Plugin 'wookiehangover/jshint.vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'hail2u/vim-css3-syntax'
+Plugin 'tpope/vim-cucumber'
 call vundle#end()
 
 set laststatus=2
