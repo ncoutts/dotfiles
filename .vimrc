@@ -46,6 +46,8 @@ set hlsearch
 set backspace=2
 filetype plugin indent on
 
+command! -nargs=* -bar -bang -count=0 -complete=dir E Explore <args>
+
 if has("mouse")
 	set mouse=a
 endif
