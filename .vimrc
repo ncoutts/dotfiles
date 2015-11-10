@@ -8,11 +8,11 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
-Plugin 'wookiehangover/jshint.vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'tpope/vim-cucumber'
+Plugin 'scrooloose/syntastic'
 call vundle#end()
 
 set laststatus=2
