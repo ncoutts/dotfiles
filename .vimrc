@@ -12,7 +12,7 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'tpope/vim-cucumber'
-Plugin 'scrooloose/syntastic'
+Plugin 'ctrlpvim/ctrlp.vim'
 call vundle#end()
 
 set laststatus=2
@@ -50,6 +50,9 @@ set lazyredraw
 set wildmenu
 set wildmode=longest:full,full
 filetype plugin indent on
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
 command! -nargs=* -bar -bang -count=0 -complete=dir E Explore <args>
 
