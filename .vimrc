@@ -8,16 +8,24 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
-Plugin 'leafgarland/typescript-vim'
+" Plugin 'leafgarland/typescript-vim'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'hail2u/vim-css3-syntax'
-Plugin 'tpope/vim-cucumber'
-Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'burnettk/vim-angular'
+Plugin 'pangloss/vim-javascript'
+Plugin 'claco/jasmine.vim'
 call vundle#end()
 
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'fancy'
+
+" use jshint
+let g:syntastic_javascript_checkers = ['jshint']
+"
+" show any linting errors immediately
+let g:syntastic_check_on_open = 1
 
 set swapfile
 set backup
