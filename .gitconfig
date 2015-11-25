@@ -1,8 +1,12 @@
+[user]
+	name = Nick Coutts
 [color]
-  ui = auto
+	ui = auto
 [push]
-  default = simple
+	default = simple
 [pull]
 	rebase = true
 [core]
 	editor = vim
+[status]
+	submoduleSummary = true
