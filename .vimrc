@@ -26,6 +26,7 @@ let g:syntastic_javascript_checkers = ['jshint']
 "
 " show any linting errors immediately
 let g:syntastic_check_on_open = 1
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute " ,"trimming empty <", "unescaped &" , "lacks \"action", "is not recognized!", "discarding unexpected", "id\" has invalid value", "href\" lacks value"]
 
 set swapfile
 set backup
