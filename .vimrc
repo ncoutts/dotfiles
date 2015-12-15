@@ -60,6 +60,9 @@ set wildmenu
 set wildmode=longest:full,full
 filetype plugin indent on
 
+let mapleader=","
+map <Leader>a :%y+<CR>
+
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
