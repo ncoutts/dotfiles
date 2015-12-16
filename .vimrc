@@ -34,6 +34,7 @@ set backupdir=~/.vim/tmp/backup//
 set directory=~/.vim/tmp/swap//
 set undodir=~/.vim/tmp/undo//
 
+set hidden
 set background=dark
 set number
 set fileformats=unix
