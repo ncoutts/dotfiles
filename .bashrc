@@ -10,7 +10,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias mv="mv -i"
 
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export TERM="xterm-256color"
 export PS1="[\[\033[0;31m\]\u\[\033[0m\]@\h:\w] \[\033[0m\] [\[\033[1;33m\]\t\[\033[0m\]] $\[\033[0m\] "
 export CLICOLOR=1
