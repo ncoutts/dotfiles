@@ -14,6 +14,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'burnettk/vim-angular'
 Plugin 'pangloss/vim-javascript'
 Plugin 'claco/jasmine.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 call vundle#end()
 
 set laststatus=2
