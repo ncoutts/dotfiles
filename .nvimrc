@@ -15,6 +15,7 @@ Plugin 'burnettk/vim-angular'
 Plugin 'pangloss/vim-javascript'
 Plugin 'claco/jasmine.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'airblade/vim-gitgutter.git'
 call vundle#end()
 
 set laststatus=2
