@@ -28,6 +28,14 @@ let g:syntastic_javascript_checkers = ['jshint']
 " show any linting errors immediately
 let g:syntastic_check_on_open = 1
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute " ,"trimming empty <", "unescaped &" , "lacks \"action", "is not recognized!", "discarding unexpected", "id\" has invalid value", "href\" lacks value"]
+let g:syntastic_enable_signs = 1 " Show signs on Error Lines
+let g:syntastic_enable_highlighting = 1 " show highlighting on error line
+let g:syntastic_error_symbol = '✗'
+let g:syntastic_warning_symbol = '⚠'
+let g:syntastic_style_error_symbol = '☒'
+let g:syntastic_style_warning_symbol = '⍄'
+let g:syntastic_aggregate_errors = 1 " Run all checkers so I get all errors
+let g:syntastic_auto_loc_list = 1 " Auto Open/Close Location List
 
 set swapfile
 set backup
@@ -46,7 +54,11 @@ try
 catch
 	colorscheme slate
 endtry
-match ErrorMsg '\s\+$'
+
+" match ErrorMsg '\s\+$'
+highlight TrailingWhiteSpace ctermbg=red ctermfg=white
+match TrailingWhiteSpace / \+$/
+
 set cursorline
 set shiftwidth=4
 set tabstop=4
