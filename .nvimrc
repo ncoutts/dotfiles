@@ -35,7 +35,7 @@ let g:syntastic_warning_symbol = '⚠'
 let g:syntastic_style_error_symbol = '☒'
 let g:syntastic_style_warning_symbol = '⍄'
 let g:syntastic_aggregate_errors = 1 " Run all checkers so I get all errors
-let g:syntastic_auto_loc_list = 1 " Auto Open/Close Location List
+" let g:syntastic_auto_loc_list = 1 " Auto Open/Close Location List
 
 set swapfile
 set backup
