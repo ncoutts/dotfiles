@@ -22,8 +22,8 @@ set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'fancy'
 
-" use jshint
-let g:syntastic_javascript_checkers = ['jshint']
+" use eslint
+let g:syntastic_javascript_checkers = ['eslint']
 "
 " show any linting errors immediately
 let g:syntastic_check_on_open = 1
