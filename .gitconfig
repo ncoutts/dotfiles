@@ -8,5 +8,7 @@
 	rebase = true
 [core]
 	editor = vim
+	autocrlf = false
+	ignorecase = true
 [status]
 	submoduleSummary = true
