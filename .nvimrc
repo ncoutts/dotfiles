@@ -60,8 +60,9 @@ highlight TrailingWhiteSpace ctermbg=red ctermfg=white
 match TrailingWhiteSpace / \+$/
 
 set cursorline
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
+set expandtab
 set scrolloff=4
 set incsearch
 set showmatch
