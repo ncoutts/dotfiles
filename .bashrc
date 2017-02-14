@@ -9,6 +9,7 @@ alias tree="git log --graph --decorate --pretty=oneline --abbrev-commit --all"
 alias folders="find . -maxdepth 1 -type d -print0 | xargs -0 du -sh | sort -rn"
 alias ..="cd .."
 alias ...="cd ../.."
+alias ....="cd ../../.."
 alias mv="mv -i"
 
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
