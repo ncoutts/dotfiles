@@ -47,6 +47,7 @@ catch
 endtry
 match ErrorMsg '\s\+$'
 set cursorline
+set colorcolumn=120
 set shiftwidth=4
 set tabstop=4
 set ttymouse=xterm2

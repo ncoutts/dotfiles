@@ -1,13 +1,13 @@
 syntax on
 filetype off
-set clipboard=unnamed
+set clipboard+=unnamedplus
 
 set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
-" Plugin 'leafgarland/typescript-vim'
+Plugin 'leafgarland/typescript-vim'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'scrooloose/syntastic'
@@ -16,6 +16,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'claco/jasmine.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter.git'
+Plugin 'tpope/vim-cucumber'
 call vundle#end()
 
 set laststatus=2
@@ -60,10 +61,11 @@ highlight TrailingWhiteSpace ctermbg=red ctermfg=white
 match TrailingWhiteSpace / \+$/
 
 set cursorline
+set colorcolumn=121
 set shiftwidth=2
 set tabstop=2
-set expandtab
 set scrolloff=4
+set expandtab
 set incsearch
 set showmatch
 set hlsearch
