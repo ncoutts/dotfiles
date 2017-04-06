@@ -4,6 +4,7 @@
 	ui = auto
 [push]
 	default = simple
+  followTags = true
 [pull]
 	rebase = true
 [core]
@@ -12,3 +13,4 @@
 	ignorecase = true
 [status]
 	submoduleSummary = true
+  showUntrackedFiles = all
