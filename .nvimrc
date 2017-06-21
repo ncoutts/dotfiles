@@ -17,6 +17,9 @@ Plugin 'claco/jasmine.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter.git'
 Plugin 'tpope/vim-cucumber'
+Plugin 'Shougo/vimproc.vim'
+Plugin 'Quramy/tsuquyomi'
+
 call vundle#end()
 
 set laststatus=2
@@ -25,6 +28,9 @@ let g:Powerline_symbols = 'fancy'
 
 " use eslint
 let g:syntastic_javascript_checkers = ['eslint']
+" let g:syntastic_typescript_tsc_fname = ''
+" let g:syntastic_typescript_checkers = ['tslint']
+
 "
 " show any linting errors immediately
 let g:syntastic_check_on_open = 1
@@ -73,6 +79,7 @@ set backspace=2
 set lazyredraw
 set wildmenu
 set wildmode=longest:full,full
+set ttimeoutlen=100
 filetype plugin indent on
 
 let mapleader=","
